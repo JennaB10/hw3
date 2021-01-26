@@ -28,7 +28,7 @@ function pageLoad() {
   console.log(levelOfService)
   console.log(ride.length)
  
-  if(ride.length == 1) {
+  if (ride.length == 1) {
   passenger1Name = ride[0].passengerDetails.first + ' ' + ride[0].passengerDetails.last
   passenger1Phone = ride[0].passengerDetails.phoneNumber
   passenger1NumberOfPassengers = ride[0].numberOfPassengers
@@ -90,9 +90,7 @@ function pageLoad() {
 }
   
 
- 
-
-  // these variables map to the elements on the finished page;
+   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
 
   // levelOfService
