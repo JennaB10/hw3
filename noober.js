@@ -27,6 +27,7 @@ function pageLoad() {
 
   console.log(levelOfService)
   console.log(ride.length)
+
  
   if (ride.length == 1) {
   passenger1Name = ride[0].passengerDetails.first + ' ' + ride[0].passengerDetails.last
@@ -87,6 +88,7 @@ function pageLoad() {
   passenger3DropoffAddressLine2 = ride[2].dropoffLocation.city + ', ' + ride[2].dropoffLocation.state + ' ' + ride[2].dropoffLocation.zip
   passenger3NooberPurple = ride[2].purpleRequested
 
+ 
 }
   
 
